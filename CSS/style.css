@@ -1,0 +1,31 @@
+#movies{
+    margin-top:5rem;
+}
+
+img{
+    border-radius: .5rem;
+    height: 100%;
+}
+
+.well{
+    height: 35rem;
+    margin-bottom:3rem;
+   display: flex;
+   flex-direction: column;
+}
+
+h5{
+    margin:.5rem 0;
+}
+.btn{
+    /* width:10rem;
+    align-self: center; */
+    margin-top: .5rem;
+    font-weight: 900;
+}
+
+@media(max-width:757px){
+   .well{
+    margin-bottom:7rem;
+   }
+}
